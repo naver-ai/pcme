@@ -1,0 +1,62 @@
+dataloader:
+    batch_size: 128
+    eval_batch_size: 8
+    num_workers: 16
+    crop_size: 224
+    word_dim: 300
+    random_erasing_prob: 0.2
+    caption_drop_prob: 0.1
+
+model:
+    name: pcme
+    embed_dim: 512
+    cnn_type: resnet50
+    wemb_type: glove
+    word_dim: 300
+    cache_dir: null
+    img_attention: True
+    txt_attention: True
+    img_finetune: False
+    txt_finetune: False
+    img_probemb: True
+    txt_probemb: True
+    no_sigma_ln: True
+    n_samples_inference: 7
+    eval_method: matmul
+    pretrained_resnet_model_path: ''
+
+# optimizer configuration
+optimizer:
+    name: adamp
+    learning_rate: 0.0001
+    weight_decay: 0.0
+
+# lr scheduler configuration
+lr_scheduler:
+    name: cosine_annealing
+    T_max: 50
+
+# criterion configuration
+criterion:
+    name: pcme
+    init_negative_scale: 5
+    init_shift: 5
+    num_samples: 7
+    vib_beta: 0.001
+    uniform_lambda: 10
+    criterion__negative_sampling_ratio: -1
+
+# detailed training configuration
+train:
+    pretrain_save_path: pretrain_last.pth
+    best_pretrain_save_path: pretrain_best.pth
+    model_save_path: model_last.pth
+    best_model_save_path: model_best.pth
+    pretrain_epochs: 10
+    finetune_epochs: 50
+    finetune_lr_decay: 1
+    log_step: 100
+    grad_clip: 2
+    val_epochs: 50
+    pretrain_val_epochs: 50
+    use_fp16: True

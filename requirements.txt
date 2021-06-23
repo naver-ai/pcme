@@ -1,0 +1,16 @@
+fire
+tqdm
+munch
+matplotlib
+numpy
+nltk
+Pillow==6.1
+pycocotools
+torch==1.2.0
+torchvision==0.2.2
+torchtext==0.5.0
+gspread
+oauth2client
+pandas
+adamp
+scipy
