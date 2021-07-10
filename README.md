@@ -57,7 +57,7 @@ Note that we also need `instances_<train | val>2014.json` for computing PMRP sco
 
 ### CUB Caption
 
-Download images from [this link](http://www.vision.caltech.edu/visipedia/CUB-200.html), and download caption from [reedscot/cvpr2016](https://github.com/reedscot/cvpr2016).
+Download images (CUB-200-2011) from [this link](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html), and download caption from [reedscot/cvpr2016](https://github.com/reedscot/cvpr2016).
 You can use the image path and the caption path separately in the code.
 
 ## Evaluate pretrained models
