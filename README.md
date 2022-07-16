@@ -14,6 +14,7 @@ alt="VIDEO" width="700" border="10" /></a>
 
 ## Updates
 
+- 16 Jul, 2022: Add PCME CutMix-pretrained weight (used for [ECCV Caption](https://github.com/naver-ai/eccv-caption) paper)
 - 23 Jun, 2021: Initial upload.
 
 ## Installation
