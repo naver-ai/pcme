@@ -90,8 +90,8 @@ python evaluate_pmrp_coco.py --ranking_file <dumped_ranking_file>
 
 | Method   | I2T 1K PMRP | I2T 1K R@1 | I2T ECCV mAP@R | T2I 1K PMRP | T2I 1K R@1 | T2I ECCV mAP@R | Model file |
 |----------|----------|---------|----------|----------|---------|----------|------------|
-| PCME     | 45.0     | 68.8    |   26.2   | 46.0     | 54.6    |   48.0   | [link](https://drive.google.com/file/d/1S8H8LRORL_7ZAD4KLn7hkCPs8j6Q9Beh/view?usp=sharing) |
-| PCME (CutMix-pretrained) | 46.2 | 68.3 | 28.6 | 47.1 | 56.7 | 54.9 | [link](https://drive.google.com/file/d/1K9d_NHU1wyzGsfH1hJ07k_nQ9dSHFHXK/view?usp=sharing) |
+| PCME     | 45.0     | 68.8    |   26.2   | 46.0     | 54.6    |   48.0   | [link](https://github.com/naver-ai/pcme/releases/download/v1.0.0/pcme_coco.pth) |
+| PCME (CutMix-pretrained) | 46.2 | 68.3 | 28.6 | 47.1 | 56.7 | 54.9 | [link](https://github.com/naver-ai/pcme/releases/download/v1.0.0/pcme_cutmix_coco.pth) |
 | PVSE K=1 | 40.3     | 66.7    |   23.4   | 41.8     | 53.5    |   44.6   | -          |
 | PVSE K=2 | 42.8     | 69.2    |   26.7   | 43.6     | 55.2    |   53.8   | -          |
 | VSRN     | 41.2     | 76.2    |   30.8   | 42.4     | 62.8    |   53.8   | -          |
