@@ -14,6 +14,7 @@ alt="VIDEO" width="700" border="10" /></a>
 
 ## Updates
 
+- Jan 2024: [PCME++](https://openreview.net/forum?id=ft1mr3WlGM), the improved version of PCME, is accepted at ICLR 2024. Please use [naver-ai/pcmepp](https://github.com/naver-ai/pcmepp) for the improved version!
 - 16 Jul, 2022: Add PCME CutMix-pretrained weight (used for [ECCV Caption](https://github.com/naver-ai/eccv-caption) paper)
 - 23 Jun, 2021: Initial upload.
 
