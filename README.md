@@ -186,6 +186,23 @@ It takes about 4 hours in a single V100 with mixed precision training.
 }
 ```
 
+I would like to suggest citing [ECCV Caption](https://github.com/naver-ai/eccv-caption) and [PCME++](https://github.com/naver-ai/pcmepp), too.
+```
+@inproceedings{chun2022eccv_caption,
+    title={ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO}, 
+    author={Chun, Sanghyuk and Kim, Wonjae and Park, Song and Chang, Minsuk Chang and Oh, Seong Joon},
+    year={2022},
+    booktitle={European Conference on Computer Vision (ECCV)},
+}
+
+@inproceedings{chun2024pcmepp,
+    title={Improved Probabilistic Image-Text Representations},
+    author={Chun, Sanghyuk},
+    year={2024},
+    booktitle={International Conference on Learning Representations (ICLR)},
+}
+```
+
 ## License
 
 ```
